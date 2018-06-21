@@ -1,0 +1,531 @@
+body {
+    font-family: 'Roboto', sans-serif !important;
+}
+h1 {
+    font-weight: normal; 
+}
+/* navigation */
+.brand-img {
+    height: 100%;
+    width: auto;
+}
+.navbar-brand {
+    height: 60px;
+}
+.nav >li >a {
+    height: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    color: black;
+    letter-spacing: .1em;
+    transition: ease .2s;
+}
+.nav >li >a:hover {
+    background: white;
+    letter-spacing: .15em;
+    color: #58b575;
+}
+.navbar {
+    color: white;
+    border: none;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.24);
+    margin-bottom: 0;
+    padding: 0 128px 0 128px;
+}
+/* top story hero banner thing */
+.jumbotron {
+    margin-bottom: 0px;
+    background-image: url(../img/animal-animal-photography-big-cat-792381.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+    position: relative;
+    color: white;
+    min-height: 480px;
+    padding-top: 280px;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease-in-out;
+}
+.jumbotron:hover >h1 span {
+
+}
+.wrapper {
+    overflow: hidden;
+    height: 480px;
+}
+.jumbotron h1 span {
+    margin: 100px 0 0 0;
+    font-size: 40px;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: #f1e04c;
+    color: black;
+    text-shadow: none;
+    padding: 10px 32px 10px 128px;
+}
+.jumbotron p span {
+    
+    font-size: 20px;
+    line-height: 48px;
+    font-weight: normal;
+    text-transform: uppercase;
+    background: white;
+    color: black;
+    text-shadow: none;
+    padding: 14px 32px 14px 128px;
+}
+/* section */ 
+section {
+    background-color: #f1f1f1;
+    padding-bottom: 128px;
+}
+section h1 {
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 32px;
+    padding: 128px 128px 64px 128px;
+}
+.container {
+    width: 100%;
+    padding: 0 128px 0 128px;
+}
+.col-sm-4.col-mid {
+    padding: 0 15px 0 15px;
+}
+/* cards */
+.card {
+    width: 100%;
+    font-size: 1em;
+    overflow: hidden;
+    padding: 0;
+    border: none;
+    border-radius: .28571429rem;
+    margin-bottom: 32px;
+    background: white;
+}
+
+.card-body {
+    font-size: 1em;
+    position: relative;
+    margin: 0;
+    padding: 1em;
+    border: none;
+    box-shadow: ;
+}
+
+.card-img-top {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.card-text {
+    font-size: 1.2em;
+    color: black;
+    letter-spacing: .01em;
+}
+
+/* card whoweare page card2 */
+.card2 {
+    width: 100%;
+    font-size: 1em;
+    overflow: hidden;
+    padding: 0;
+    border: none;
+    border-radius: .28571429rem;
+    margin-bottom: 32px;
+    background: white;
+    position: relative;
+}
+
+.card2-body {
+    font-size: 1em;
+    position: relative;
+    margin: 0;
+    padding: 1em;
+    border: none;
+    box-shadow: ;
+}
+.card2-img-top {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.card2-head {
+    font-size: 1.2em;
+    font-weight: 500;
+    color: black;
+    letter-spacing: .01em;
+    text-transform: capitalize;
+}
+.card2-text {
+    position: absolute;
+    font-size: 1.6em;
+    color: white;
+    letter-spacing: .01em;
+    padding: 1em;
+}
+.card2-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+}
+.card2:hover .card2-overlay {
+  opacity: 1;
+}
+
+/* invite section - adopt / donate / sign up */ 
+section.invite {
+    background-color: #007991;
+}
+section.invite h1 {
+    color: white;
+}
+#exTab1 .tab-content {
+  color : white;
+}
+#exTab1 .tab-pane {
+   padding : 5px 15px;
+}
+#exTab1 .tab-content > [id='1a']  {
+    background-color: #EF767A;
+}
+
+#exTab1 .tab-content > [id='2a']  {
+    background-color: #58B575;
+}
+
+#exTab1 .tab-content > [id='3a']  {
+    background-color: #FFD166;
+}
+#exTab1 .nav-pills > li > a {
+  border-radius: 0;
+}
+div#exTab1.container {
+    padding-bottom: 64px;
+}
+li.active {
+    background: #E9C46A;
+}
+.nav-pills > li > a.adopt-tab {
+    color: #EF476F;
+    border: none;
+}
+.nav-pills > li.active > a.adopt-tab {
+    background-color: #EF767A;
+    color: white;
+    border: none;
+}
+.nav-pills > li > a.donate-tab {
+    color: #58B575;
+    border: none;
+}
+.nav-pills > li.active > a.donate-tab {
+    background-color: #58B575;
+    border: none;
+}
+.nav-pills > li > a.join-tab {
+    color: #E9D985;
+    border: none;
+}
+.nav-pills > li.active > a.join-tab {
+    background-color: #E9D985;
+    border: none;
+}
+form {
+    padding: 32px;
+}
+label {
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 18px;
+    font-weight: normal;
+    letter-spacing: .05em;
+}
+input {
+    border: none;
+}
+.input-group input {
+    height: 40px;
+}
+input.form-control {
+    height: 40px;
+    font-family: 'Roboto';
+    width: 100%;
+}
+.form-group select {
+    height: 40px;
+}
+#email {
+    margin: 0;
+    width: 100%;
+    
+}
+span.input-group-addon {
+    border: none;
+}
+select {
+    border: none;
+}
+.container-btn {
+    position: relative;
+    
+}
+.butn {
+    display: inline-block;
+    width: 80%;
+    margin-bottom: 0;
+    margin-top: 43.6px;
+    height: 40px;
+    background: none;
+    border: 3px solid #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+    overflow: hidden;
+    color: #fff;
+}
+.butn.donate:before {
+    content: 'DONATE';
+}
+.butn.join:before {
+    content: 'SUBSCRIBE';
+}
+.butn:before {
+    content: 'ADOPT';
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: all 0.5s;
+}
+.butn:hover:before {
+    top: -30px;
+}
+.butn:after {
+    font-family: 'Ionicons';
+    content: '\f141';
+    position: absolute;
+    top: calc(100% + 30px);
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 30px;
+    transition: all 0.5s;
+    color: #fff;
+}
+.butn:hover:after {
+    top: 50%;
+}
+.donate-preset {
+    width: 100%;
+}
+.donate-preset > .btn {
+    height: 40px;
+    display: inline-block;
+    margin-right: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border: 3px solid white;
+    background: none;
+    font-weight: bold;
+}
+.donate-preset > .btn:active {
+    color: #FF6663;
+    background-color: #fff;
+}
+.donate-preset > .btn:focus {
+    color: #FF6663;
+    background-color: #fff;
+}
+#places {
+    margin-bottom: 0px;
+    background-image: none;
+    overflow: hidden;
+    position: relative;
+    color: white;
+    cursor: none;
+    z-index: -101;
+    min-height: calc(100% - 50px);
+    min-height: calc(100vh - 50px);
+    min-width: 100%;
+}
+#video-background { 
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+    width:100%;
+}
+#vid-wrap {
+    height: calc(100vh - 60px);
+}
+section.test {
+    position: relative;
+    z-index: 1;
+}
+h1.vid-head {
+    text-align: center;
+    font-size: 16em;
+    margin: 0;
+    opacity: 1;
+}
+/* floaty button */
+.float-right{
+	position:fixed;
+	width:140px;
+	height:40px;
+	bottom:50%;
+	right:10px;
+	background-color:black;
+	color:#FFF;
+	text-align:center;
+    -webkit-transform: rotate(90deg);
+    text-decoration: none;
+    padding-top: 10px; padding-bottom: 10px;
+    letter-spacing: .25em;
+    transition: 0.2s ease;
+}
+.float-right:hover {
+    letter-spacing: .5em;
+    color: #fff;
+    text-decoration: none;
+}
+.float-left{
+	position:fixed;
+	width:140px;
+	height:40px;
+	bottom:50%;
+	left:10px;
+	background-color:black;
+	color:#FFF;
+	text-align:center;
+    -webkit-transform: rotate(-90deg);
+    text-decoration: none;
+    padding-top: 10px; padding-bottom: 10px;
+    letter-spacing: .25em;
+    transition: 0.2s ease;
+}
+.float-left:hover {
+    letter-spacing: .5em;
+    color: #fff;
+    text-decoration: none;
+}
+/* who we are */
+h1.h-who {
+    padding: 128px 128px 0 128px;
+}
+p.sub-h {
+    margin: 0;
+    font-size: 20px;
+    padding: 24px 128px 64px 128px;
+}
+.jumbotron.who-jumbo {
+    background-image: url(../img/who_hero.jpg);
+}
+
+/*get involved*/
+.jumbotron.gi-jumbo {
+    background-image: url(../img/getinvolvedhero.jpg);
+}
+.march-cont {
+    background: #EF767A;
+    width: 100%;
+    padding: 0 128px 0 128px;
+    
+}
+.march-h {
+    padding-left: 128px;
+    text-transform: capitalize;
+    color: white;
+    font-weight: 600;
+}
+.march {
+    color: white;
+}
+p.sub-h.sub-m {
+    color: white;
+}
+section.march-sect {
+    background: #EF767A;
+}
+img.march-img {
+    height: auto;
+    width: 20%;
+    margin: 5%;
+}
+img.march-img2 {
+    height: auto;
+    width: 100%;
+}
+section.bee-sect {
+    background: #E9D985;
+}
+img.bee-img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 64px;
+}
+.bee-h {
+    padding-left: 128px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+/* what we do */ 
+.jumbotron.do-jumbo {
+    background-image: url(../img/whatwedohero.jpg);
+}
+img.what-img {
+    width: 100%;
+    height: auto;
+}
+/* events cards*/
+section.events {
+    background: #f1f1f1;
+}
+.eventscard {
+    /* https://developer.mozilla.org/en-US/docs/Web/CSS/clear */
+    clear: both; /* PLEASE COMMENT THIS LINE AND SEE CHANGES IN LAYOUT */
+    overflow: auto; /* https://developer.mozilla.org/en-US/docs/Web/CSS/overflow */
+    background: #fff;
+}
+img.events-img {
+    vertical-align: middle;
+    float: left; /* https://developer.mozilla.org/en-US/docs/Web/CSS/float */
+    margin-right: 64px;
+    height: 250px;
+    width: auto;
+}
+h4.ecard-title {
+    padding-top: 32px !important;
+}
+h4.ecard-sub {
+    font-weight: 400;
+    padding-top: 8px;
+}
+h4.ecard-findmore {
+    font-weight: 400;
+    padding-top: 64px;
+    padding-bottom: 0;
+}
+a.events-link {
+    color: #007991;
+    cursor: pointer;
+    font-weight: 400;
+}
+/* places */
+h1.h-who.h-places {
+    padding-bottom: 64px;
+}
